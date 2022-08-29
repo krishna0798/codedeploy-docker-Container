@@ -5,5 +5,5 @@ sudo systemctl enable docker.service
 sudo systemctl start docker.service
 sudo mkdir ak2 && cd ak2
 sudo git clone https://github.com/Aparna-SJ/codedeploy-docker.git
-sudo cp codedeploy-container/scripts/Dockerfile.txt /opt/codedeploy-agent/
-sudo cp codedeploy-container/index.html /opt/codedeploy-agent/
+sudo cp codedeploy-docker/scripts/Dockerfile.txt /opt/codedeploy-agent/
+sudo cp codedeploy-docker/index.html /opt/codedeploy-agent/
