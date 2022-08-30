@@ -4,6 +4,6 @@ sudo apt-get install docker.io -y
 sudo systemctl enable docker.service
 sudo systemctl start docker.service
 sudo mkdir ak2 && cd ak2
-sudo git clone https://github.com/Aparna-SJ/codedeploy-docker.git
+sudo git clone https://github.com/krishna0798/codedeploy-docker-Container.git
 sudo cp codedeploy-docker-Container/scripts/Dockerfile.txt /opt/codedeploy-agent/
 sudo cp codedeploy-docker-Container/index.html /opt/codedeploy-agent/
